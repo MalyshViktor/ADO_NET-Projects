@@ -68,9 +68,9 @@ namespace ADO_NET
                 connection.Close();
 
             }
-                connection = new SqlConnection(
+            connection = new SqlConnection(
                 configuration.GetConnectionString("numDb")
-                 );
+            );
             try
             {
                 connection.Open();
